@@ -1,0 +1,37 @@
+*{
+margin: 0px;
+padding: 0px;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+
+.container{
+    max-width: 1440px;
+    padding: 0 13px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Jost', sans-serif;
+}
+
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    cursor: wait
+}
+
+@import "header" ;
+@import "main/hero" ;
+@import "main/section2" ;
+@import "main/section3" ;
+@import "main/section4" ;
+@import "main/section5" ;
+@import "main/section6" ;
+@import "main/section7" ;
+@import "main/section8" ;
+@import "main/section9" ;
+@import "main/section10" ;
+@import "footer" ;

@@ -1,0 +1,102 @@
+.sc8-box{
+    margin-top: 100px;
+}
+
+.sc8 h1{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    color: #333333;
+}
+.sc8 h6{
+    max-width: 570px;
+    margin: 10px auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+}
+.sc8 .box{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex2{
+    flex-wrap: wrap;
+}
+
+.sc8 .box .card{
+    margin: 15px 10px;
+    background: #F0F0F0;
+}
+
+.sc8 h5{
+    padding-left: 10px;
+    margin: 10px 0;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    color: #333333;
+}
+.sc8 h2{
+    padding-left: 10px;
+    max-width: 530px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    text-decoration-line: underline;
+    color: #333333;
+}
+.sc8 p{
+    padding-left: 10px;
+    margin: 20px 0;
+    max-width: 635px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666666;
+}
+.sc8 button{
+    margin: 10px;
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #023047;
+    border: none;
+}
+
+.sc8 h3{
+    max-width: 265px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+.flexes{
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width:680px) {
+    .sc8-box{
+        margin-top: 50px;
+    }
+    .sc8 .box .card{
+        width: 100%;
+    }
+    .flexes{
+        display: block;
+    }
+    .sc8 img{
+        width: 100%;
+    }
+}

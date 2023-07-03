@@ -1,0 +1,37 @@
+.sc7-box{
+    background-color: #F3F3F3;
+}
+.sc7{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.sc7 .card{
+    width: 270px;
+    height: 150px;
+    padding: 10px 0;
+    border: 1px solid #CCCCCC;
+    text-align: center;
+    margin: 10px;
+}
+.sc7 h3{
+    font-weight: 600;
+    font-size: 24px;
+    margin: 1px 0;
+    line-height: 35px;
+    text-align: center;
+    color: #333333;
+}
+.sc7 p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #666666;
+}
+.sc7 .card:hover{
+    cursor: pointer;
+    background-color: #fff;
+}

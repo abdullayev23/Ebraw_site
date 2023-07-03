@@ -1,0 +1,156 @@
+header{
+    padding: 12px 5px;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head-item{
+    display: flex;
+}
+
+.head-item__list{
+    margin-right: 30px;
+}
+.head-item__link{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: #333333;
+}
+.input{
+    width: 288px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border: 1.5px solid #023047;
+}
+.input input{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #999999;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+.input input::placeholder{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: #999999;
+}
+.input img{
+    cursor: pointer;
+}
+
+.burger{
+    display: none;
+}
+
+.burger span{
+    background-color: #000;
+    margin: 3px 0px;
+    display: block;
+    width: 20px;
+    height: 3px;
+}
+
+.active{
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+@media (max-width:910px) {
+    .head-item__list{
+        margin-right: 20px;
+    }
+    .input{
+        width: 200px;
+    }
+}
+
+@media (max-width:850px) {
+    .head {
+        flex-wrap: wrap;
+    }
+    .icon-head{
+        margin-top: 10px;
+        margin-left: 300px;
+    }
+}
+@media (max-width:650px) {
+    .head-item{
+        display: none;
+    }
+    .icon-head{
+        margin-left: 0;
+    }
+    .burger{
+        display: block;
+    }
+    .active{
+        position: absolute;
+        left: 0;
+        width: 0%;
+        height: 0%;
+        opacity: 0;
+        padding: 5px;
+        background-color: white;
+        transition: 1s all ease;
+    }
+    // .scroll{
+    //     overflow-y: hidden;
+    // }
+    .active-modal{
+        width: 90%;
+        height: 100%;
+        opacity: 1;
+    }
+    .times{
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 35px;
+    }
+    .active ul li{
+        margin: 10px 20px;
+    }
+    #teg{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 19px;
+        color: #333333;
+    }
+    .active .jpg{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+}
+@media (max-width:600px) {
+    .icon-head{
+        display: none;
+    }
+}
+@media (max-width:470px) {
+    .input{
+        width: 180px;
+    }
+    .input input{
+        width: 50%;
+    }
+}
+@media (max-width:390px) {
+    .input input{
+        display: none;
+    }
+    .input{
+        width: 20px;
+    }
+}

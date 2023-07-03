@@ -1,0 +1,74 @@
+.sc2-box{
+    background-color: #fafafa ;
+}
+.sc2{
+    padding: 50px 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sc2 .box .card{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    background-color: #EEEEEE;
+    padding-left: 5px;
+    width: 500px;
+}
+.sc2 .box .card h4{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #023047;
+}
+.sc2 .box .card h2{
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+}
+.sc2 .box .card button{
+    padding: 13px 18px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid #666666;
+}
+
+@media (max-width:1050px) {
+    .sc2 .box .card {
+        width: 450px;
+    }
+}
+@media (max-width:950px) {
+    .sc2 {
+        overflow-x: auto;
+        justify-content: start;
+    }
+    .sc2 .box .card{
+        margin: 10px 20px;
+        flex-shrink: 0;
+        width: 500px;
+    }
+}
+@media (max-width:540px) {
+    .sc2{
+        overflow: unset;
+        flex-wrap: wrap;
+    }
+    .sc2 .box .card{
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+@media (max-width:460px) {
+    .sc2 .box .card{
+        padding: 10px 10px;
+    }
+    .sc2 .box .card img{
+        width: 40%;
+    }
+}

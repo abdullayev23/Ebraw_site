@@ -1,0 +1,129 @@
+.sc3-box{
+    background-color: #F5F5F5;
+}
+.sc3{
+    padding: 70px 0;
+}
+
+
+
+.sc3 h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+}
+.sc3 p{
+    font-weight: 400;
+    font-size: 14px;
+    width: 540px;
+    line-height: 23px;
+    color: #000000;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.sc3 .box {
+    display: flex;
+    align-items: center;
+    overflow: auto;
+}
+
+
+.sc3 .box .card{
+    margin: 0 20px;
+    width: 370px;
+    text-align: center;
+    position: relative;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+}
+.sc3 .box .card h3{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 134.5%;
+    color: #333333;
+}
+.sc3 .box .card h5{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.card-hover-div{
+    width: 370px;
+    background: rgba(2, 48, 71, 0.9);
+    padding: 10px 0px;
+    transform: scale(0);
+}
+
+.card-hover{
+    position: absolute;
+    top: 20px;
+    left: 330px;
+    transform: scale(0);
+}
+.card-hover img{
+    display: block;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+.sc3 .box .card:hover .card-hover-div{
+    transform: scale(1);
+    transition: all 1s ease;
+}
+
+.sc3 .box .card:hover .card-hover{
+    transform: scale(1);
+    transition: all 1s ease;
+
+}
+
+.card-hover-div .content{
+    cursor: pointer;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 130px;
+    padding: 10px 10px;
+}
+.card-hover-div .content h6{
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: #023047;
+}
+
+@media (max-width:570px) {
+    .sc3 p{
+        width: 100%;
+    }
+}
+
+@media (max-width:450px) {
+    .sc3 .box .card{
+        width: 300px;
+        margin: 0 5px;
+    }
+    .card-hover-div{
+        width: 100%;
+    }
+
+    .card-hover{
+        left: 10px;
+    }
+}
+@media (max-width:360px) {
+    .sc3 .box .card {
+        width: 250px;
+    }
+    .imgggg{
+        width: 250px;
+    }
+}

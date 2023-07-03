@@ -1,0 +1,33 @@
+.sc10-box{
+    background: #F3F3F3;
+}
+
+.sc10{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.sc10 h2{
+    font-weight: 600;
+    font-size: 24px;
+    margin: 10px 0;
+    line-height: 181.5%;
+    text-align: center;
+    color: #000000;
+}
+.sc10 .box{
+    text-align: start;
+    display: flex;
+    overflow-x: auto;
+    align-items: center;
+}
+.sc10 .box img{
+    width: 25%;
+}
+
+@media (max-width:700px) {
+    .sc10{
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+}
